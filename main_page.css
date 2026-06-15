@@ -4,5 +4,10 @@
     margin: 0;
     padding: 0;
     gap: 20px;
-
 }
+.active {
+    font-weight: bold;
+}
+
+a:link { color: black; }
+a:visited { color: black; }
