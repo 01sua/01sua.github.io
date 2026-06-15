@@ -1,7 +1,7 @@
 .nav-links {
-    text-align: right;
     list-style: none;
     display: flex;
+    justify-content: flex-end;
     margin: 0;
     padding: 0;
     gap: 20px;
@@ -12,10 +12,6 @@
 
 a:link { color: black; text-decoration: none;}
 a:visited { color: black; text-decoration: none;}
-
-.nav {
-    text-align: right;
-}
 
 body {
   font-family:  Arial;
