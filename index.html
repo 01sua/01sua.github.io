@@ -1,24 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Austin's website</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Austin’s portfolio, built two ways: by hand and with AI.">
+    <title>Austin — One portfolio, two ways</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ol class="nav-links">
-                <li><a href="/" class="active">About</a></li>
-                <li><a href="/projects">Projects</a></li>
-                <li><a href="/blog">Blog</a></l
-            </ol>
-        </nav>
-    </header>
-
-    <h1>About</h1>
-    <p>
-        Hi! My name is Austin, I'm a recent graduate from the Unviersity of Washington
-        Where I studied computer science.  
-    </p>
+    <main>
+        <p class="eyebrow">Austin’s website</p>
+        <h1>One portfolio.<br>Two ways of building it.</h1>
+        <p class="intro">An experiment in how we build for the web. Explore the version I code myself, or the version I build with AI.</p>
+        <div class="versions">
+            <a class="version" href="/coded/">
+                <span class="number">01 / Handwritten</span>
+                <h2>Built by Austin <span aria-hidden="true">↗</span></h2>
+                <p>My own code, design decisions, and learning along the way.</p>
+                <span class="enter">Explore the handwritten site →</span>
+            </a>
+            <a class="version" href="/ai/">
+                <span class="number">02 / AI-assisted</span>
+                <h2>Built with AI <span aria-hidden="true">↗</span></h2>
+                <p>A separate space to experiment with LLM-assisted design and development.</p>
+                <span class="enter">Explore the AI-assisted site →</span>
+            </a>
+        </div>
+        <p class="note">You can switch versions from any page.</p>
+    </main>
 </body>
 </html>
