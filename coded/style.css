@@ -2,10 +2,10 @@
     list-style: none;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
     margin: 0;
-    padding: 2%;
-    margin-right: 10%;
-    gap: 40px;
+    padding: 15px 8%;
 }
 .active {
     text-decoration: underline;
@@ -16,6 +16,18 @@ a:visited { color: black; text-decoration: none;}
 
 body {
   font-family:  Arial;
+  background-color: #d4a2f2;
+}
+
+
+main h1 {
+  margin-top: 40px; /* Moves h1 down from the top */
+  margin-left: 20px; /* Moves h1 away from the left edge */
+}
+
+main p {
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 /* Navigation added for the two-version structure. Original site styles above. */
